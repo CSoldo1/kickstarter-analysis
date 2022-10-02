@@ -10,7 +10,7 @@ An up-and-coming playwrite asked me to help her plan a successful fundraisng cam
 The success of Kickstarter campaigns is highly variable. About half of all theater-based fundraising campaigns are successful.
 
 
-![Outcomes Based on Launch Date](path/to/Outcomes Based on Launch Date.png)
+![Outcomes Based on Launch Date](https://github.com/CSoldo1/Photos/blob/main/Outcomes_Based_on_Launch_Date.png)
 
 The above figure shows the results of theater-based Kickstarter campaigns that launched througout the year. 
 A higher proportion of theater campaigns are successful when they are launched in the summer, as opposed to other times of the year. 
