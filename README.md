@@ -5,7 +5,7 @@ An up-and-coming playwrite asked me to help her plan a successful fundraisng cam
 
 ### Factors Influencing Fundrasing Campaign Success
 
-![Success Based on Category]
+![Success Based on Category](https://github.com/CSoldo1/Photos/blob/main/Parent_Category_Outcomes_Graph.png)
 
 The success of Kickstarter campaigns is highly variable. About half of all theater-based fundraising campaigns are successful.
 
