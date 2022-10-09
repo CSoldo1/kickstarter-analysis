@@ -26,13 +26,22 @@ I didn't have any challenges with the pivot table. Pivot tables are very user-fr
 
 ![Outcomes Based on Launch Date](https://github.com/CSoldo1/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
 
-The date the campaign is launched has an effect on the campaigns success. When launched in summer, theater campaigns are more successful than those launched in other times of the year. 
+The date the campaign is launched effects the campaign's success. When launched in summer, theater campaigns are more successful than those launched in other times of the year. Interestingly, throughout the rest of the year, the proportion of successful campaigns relative to failed campaigns remains equal. Othere than December, there is not a time of the year where campaigns fail rather than succeed. 
+
+####Quick Speculation
+When campaigns are launched in December, they have the lowest success rate. More than likely, donors are cash-limited because of the Christmas holiday, and they are less likely to contribute to campaigns. 
 
 ### Success Based on Fundraising Goal
 
-![Outcomes Based on Fundraising Goal](
-A campaign's success was also determined by the fundraising goal. Successful campaigns had an average goal of $5,000 while failed campaigns had a goal of $10,000. 
+![Outcomes Based on Fundraising Goal](https://github.com/CSoldo1/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png)
 
-Based on the analyses briefly outlined above, I would recommend that the playwrite begin her fundraising campaign in June, and she should try to limit her budget to $5,000. 
+The majority of campaigns were successful when the goal was less $1,000. Successful campaigns exceeded failed campaigns as long as the goal amount remained less than ~ 20,000. Furthermore, over 60% of play campaigns were successful if the goal was between $35,000 and $45,000. 
+
+####Quick Speculation
+If launch data truly determined campaign success, I would expect to see the data more linearly regressed. 
+
+## Limitations and Future Analyses
+
+Outcomes based on fundraising goal would be represented better with a stacked bar graph instead of a line graph. Bar graphs, especially stacked bar graphs, make it easier to visualize percentages. Furthermore, the Kickstarter data was missing campaign length data. I would assume that the length of a fundraising campaign would be more indicative of success. 
 
 
