@@ -28,7 +28,7 @@ I didn't have any challenges with the pivot table. Pivot tables are very user-fr
 
 The date the campaign is launched effects the campaign's success. When launched in summer, theater campaigns are more successful than those launched in other times of the year. Interestingly, throughout the rest of the year, the proportion of successful campaigns relative to failed campaigns remains equal. Othere than December, there is not a time of the year where campaigns fail rather than succeed. 
 
-####Quick Speculation
+#### Quick Speculation
 When campaigns are launched in December, they have the lowest success rate. More than likely, donors are cash-limited because of the Christmas holiday, and they are less likely to contribute to campaigns. 
 
 ### Success Based on Fundraising Goal
@@ -37,7 +37,7 @@ When campaigns are launched in December, they have the lowest success rate. More
 
 The majority of campaigns were successful when the goal was less $1,000. Successful campaigns exceeded failed campaigns as long as the goal amount remained less than ~ 20,000. Furthermore, over 60% of play campaigns were successful if the goal was between $35,000 and $45,000. 
 
-####Quick Speculation
+#### Quick Speculation
 If launch data truly determined campaign success, I would expect to see the data more linearly regressed. 
 
 ## Limitations and Future Analyses
