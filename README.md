@@ -9,23 +9,18 @@ An up-and-coming playwrite asked me to help her plan a successful fundraisng cam
 Two factors that can influence the success of a fundraising campaign are the date when the campaign was launched and the target goal, or the total money requested. I performed all analyses in Excel, and I utilized data from Kickstarter, a popular crowd-funding platform.
 
 
-###Analyses
+### Analyses
 To determine the success of theater campaigns based on the date launched, I created a pivot table like the one pictured below:
 
-![Pivot Table Example]()
+![Pivot Table Example](https://github.com/CSoldo1/kickstarter-analysis/blob/main/Pivot_Table_Screenshot.PNG)
 
-I created a pivot table with data obtained from Kickstarter. From this, I created a pivot table and was able to filter campaigns based on outcome and launch date. I then looked to see whether or not a play-focused theater campaign was successful by contribution goal. This analysis was a little more involved because it required the use of the [Countifs] function in excel. I broke the contribution goals down into several categories from 1,000 to 50,000 in increments in 5,000. The code, like the one below
-
-###Challeneges
+I then looked to see whether or not a play's contribution goal determined success. This analysis was a little more involved because it required the use of the [Countifs] function in excel. I categorized contribution goals from values less than $1,000 to greter then $50,000 in increments of 5,000. I used the following Excel code code:
 =COUNTIFS(Kickstarter!F:F,"successful",Kickstarter!R:R,"plays",Kickstarter!D:D, ">=5000",Kickstarter!D:D,"<=9999")
-Was more intricate than a pivot table, and it required manual entry of each number value. 
+ 
+### Challenges
+I didn't have any challenges with the pivot table. Pivot tables are very user-friendly, and they make it easy to quickly analyze data. The Countifs function, on the other hand, was a little more complicated. Each cell could be populated with the same code, but the number values had to be entered manually. It was time-consuming and required a lot more focus, so that mistakes were not made. 
 
-
-
-![Success Based on Category](https://github.com/CSoldo1/Photos/blob/main/Parent_Category_Outcomes_Graph.png)
-
-The success of Kickstarter campaigns is highly variable. About half of all theater-based fundraising campaigns are successful.
-
+## Results
 
 ![Outcomes Based on Launch Date](https://github.com/CSoldo1/Photos/blob/main/Outcomes_Based_on_Launch_Date.png)
 
