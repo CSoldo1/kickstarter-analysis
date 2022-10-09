@@ -14,20 +14,23 @@ To determine the success of theater campaigns based on the date launched, I crea
 
 ![Pivot Table Example](https://github.com/CSoldo1/kickstarter-analysis/blob/main/Pivot_Table_Screenshot.PNG)
 
-I then looked to see whether or not a play's contribution goal determined success. This analysis was a little more involved because it required the use of the [Countifs] function in excel. I categorized contribution goals from values less than $1,000 to greter then $50,000 in increments of 5,000. I used the following Excel code code:
+I then looked to see whether or not a play's contribution goal determined success. This analysis was a little more involved because it required the use of the "Countifs" function in excel. I categorized contribution goals from values less than $1,000 to greter then $50,000 in increments of 5,000. I used the following Excel code code:
 =COUNTIFS(Kickstarter!F:F,"successful",Kickstarter!R:R,"plays",Kickstarter!D:D, ">=5000",Kickstarter!D:D,"<=9999")
  
 ### Challenges
-I didn't have any challenges with the pivot table. Pivot tables are very user-friendly, and they make it easy to quickly analyze data. The Countifs function, on the other hand, was a little more complicated. Each cell could be populated with the same code, but the number values had to be entered manually. It was time-consuming and required a lot more focus, so that mistakes were not made. 
+I didn't have any challenges with the pivot table. Pivot tables are very user-friendly, and they make it easy to quickly analyze data. The "Countifs" function, on the other hand, was a little more complicated. Each cell could be populated with the same code, but the number values had to be entered manually. It was time-consuming and required a lot more focus, so that mistakes were not made. 
 
 ## Results
 
-![Outcomes Based on Launch Date](https://github.com/CSoldo1/Photos/blob/main/Outcomes_Based_on_Launch_Date.png)
+### Theater Outcomes Based On Launch Date
 
-The above figure shows the results of theater-based Kickstarter campaigns that launched througout the year. 
-A higher proportion of theater campaigns are successful when they are launched in the summer, as opposed to other times of the year. 
+![Outcomes Based on Launch Date](https://github.com/CSoldo1/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
 
+The date the campaign is launched has an effect on the campaigns success. When launched in summer, theater campaigns are more successful than those launched in other times of the year. 
 
+### Success Based on Fundraising Goal
+
+![Outcomes Based on Fundraising Goal](
 A campaign's success was also determined by the fundraising goal. Successful campaigns had an average goal of $5,000 while failed campaigns had a goal of $10,000. 
 
 Based on the analyses briefly outlined above, I would recommend that the playwrite begin her fundraising campaign in June, and she should try to limit her budget to $5,000. 
